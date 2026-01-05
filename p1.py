@@ -1,6 +1,6 @@
 import cv2
 face_cap = cv2.CascadeClassifier(
-"C:/Users/Tiqshan/AppData/Local/Programs/Python/Python311/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"
+"C:/Users/Peter/AppData/Local/Programs/Python/Python311/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"
 )
 video_cap = cv2.VideoCapture(0)
 while True:
@@ -26,3 +26,4 @@ while True:
 
 video_cap.release()
 cv2.destroyAllWindows()
+
